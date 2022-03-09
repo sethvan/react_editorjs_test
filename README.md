@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## Wetting Feet with REACT and Editor.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This little project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and
+it was my first attempt to get to know and incorporate [Editor.js](https://github.com/codex-team/editor.js).
 
-## Available Scripts
+In anticipation of my first MERN project ( a website for a local Baptist Church in San Blas, Nay Mexico ) I desired
+to implement a basic CMS for the admin ( the pastor ) and I here tested an editable Editor.js instance as a UI and
+the lazy use of a read only Editor.js instance as a renderer for the admin's content.
 
-In the project directory, you can run:
+The documentation for [React-Editor-Js](https://www.npmjs.com/package/react-editor-js) was very helpful and useful for
+me in doing this. However I chose against actually integrating its module as it seemed easier to just use some of its
+ideas than to learn all of it's particular way of doing things.
 
-### `npm start`
+## Editor.js Tools Chosen for Demonstration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Available to use in the editable component's editor :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Header`
 
-### `npm test`
+the [Header Tool](https://github.com/editor-js/header#heading-tool) provides Headings Blocks for the Editor.js.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Embed`
 
-### `npm run build`
+the [Embed Tool](https://github.com/editor-js/embed) provides Block tool for embedded content for the Editor.js. Tool uses Editor.js pasted patterns handling and inserts iframe with embedded content.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `SimpleImage`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+the [Simple Image Tool](https://github.com/editor-js/simple-image) provides Image Blocks for the Editor.js. Works only with pasted image URLs and requires no server-side uploader.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `List`
 
-### `npm run eject`
+the [List Tool](https://github.com/editor-js/list) allows you to add ordered or unordered (bulleted) lists to your article.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `CheckList`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+the [CheckList Tool](https://github.com/editor-js/checklist) allows you to add checklists to your texts.
