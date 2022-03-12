@@ -48,3 +48,4 @@ The [CheckList Tool](https://github.com/editor-js/checklist) allows you to add c
 
 - Blocks default to a text block (paragraph).
 - If you highlight text it gives you the option to make Bold, Italic or add HyperLink.
+- For a list of other available Editor.js tools go [here](https://github.com/orgs/editor-js/repositories?type=all).
